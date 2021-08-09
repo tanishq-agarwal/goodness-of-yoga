@@ -1,0 +1,78 @@
+
+.texting {
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin: 62px 0;
+  line-height: 1.25em;
+  word-spacing: 10px;
+}
+.card-group {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 1150px;
+  height: 354px;
+  left: 0;
+  top: 1681px;
+}
+.card{
+    border: 0.5px solid rgb(255, 255, 255) !important;
+    border-radius: 10px !important;
+    padding: 22px;
+    background-color: #191919;
+}
+
+.card:first-child {
+position: absolute;
+width: 468px;
+height: 411px;
+left: -105px;
+top: 85px;
+}
+.card:nth-child(2){
+
+position: absolute;
+width: 498px;
+height: 454px;
+left: 484px;
+top: 65px;
+}
+.card:last-child{
+
+position: absolute;
+width: 405px;
+height: 411px;
+left: 1103px;
+top: 85px;
+}
+.card-body {
+    margin-top: -132px;
+    color: aliceblue;
+    opacity: 0.8;
+}
+.text-muted{
+    color: aliceblue;
+}
+.card-text{
+    margin-top: 10px;
+    margin-bottom: 0rem;
+}
+.card:last-child img{
+    height: 367px;
+}
+.card:nth-child(2) img{
+    height: 407px;
+}
+.card:first-child img{
+    height: 367px;
+}
+.slider{
+
+position: absolute;
+height: 36px;
+left: 676px;
+top: 2224px;
+}

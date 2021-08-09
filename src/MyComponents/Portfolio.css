@@ -1,0 +1,250 @@
+.container::before {
+  background: repeating-linear-gradient(
+    135deg,
+    #ffffff,
+    #ffffff 50px,
+    rgb(109, 109, 248) 1px,
+    rgb(109, 109, 248) 51px
+  );
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90em;
+  z-index: -1;
+}
+.container {
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 7px;
+  width: 73em;
+  height: 78em;
+  background-color: rgb(109, 109, 248);
+  padding: 20px 10px;
+}
+
+body {
+    background-color: #191919;
+    border-radius: 0px 0px 9px 9px;
+}
+
+.details {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 76em;
+  
+}
+.left {
+  color: rgb(110, 110, 109) !important;
+  border: 2px solid rgb(109, 109, 248) !important;
+  border-radius: 10px !important;
+  padding: 2px 19px !important;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.align-left {
+  display: inline-block;
+  margin: 0 -5em;
+  max-width: 15em;
+}
+.right {
+  color: rgb(250, 250, 250) !important;
+  border: 2px solid rgb(109, 109, 248) !important;
+  border-radius: 10px !important;
+  padding: 7px 34px !important;
+  font-size: 18px;
+}
+.right-bottom {
+  color: rgb(110, 110, 109) !important;
+  border: 2px solid rgb(110, 110, 109) !important;
+  border-radius: 10px !important;
+  padding: 7px 44px !important;
+  font-size: 18px;
+}
+.d-grid {
+  margin-top: -157px;
+  margin-right: 111px;
+}
+.text-left h2 {
+  position: absolute;
+  width: 408px;
+  height: 45px;
+  left: 227px;
+  top: 584px;
+
+  font-family: Sombra;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.02em;
+
+  color: #2b2a35;
+}
+.text-left p {
+  position: absolute;
+  width: 619px;
+  height: 93px;
+  left: 227px;
+  top: 613px;
+
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: #a5a5a5;
+}
+.icons {
+  position: absolute;
+  width: 18px;
+  height: 19px;
+  left: 195px;
+  top: 692px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.icons a {
+  padding: 0 10px;
+  margin: 8px 15px;
+  color: #2b2a35;
+  text-decoration: none;
+  font-size: 23px;
+}
+.line {
+  left: 22px;
+  position: relative;
+  top: 182px;
+  max-width: 1000px;
+}
+.residence {
+  position: absolute;
+  left: 220px;
+  top: 776px;
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+
+  color: #2b2a35;
+}
+.residence > h5 {
+  margin: -39px 28px;
+}
+.language {
+  position: absolute;
+  left: 220px;
+  top: 837px;
+
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+
+  color: #2b2a35;
+}
+.language > h5 {
+  margin: -36px 28px;
+}
+.badge {
+  margin-left: 15px;
+  padding: 16px;
+  border: 1px solid white;
+  border-radius: 19px;
+}
+.row {
+  position: absolute;
+  height: 96px;
+  left: 217px;
+  top: 1117px;
+
+  font-family: Sombra;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+
+  color: #2b2a35;
+}
+.video {
+  position: absolute;
+  left: 393px;
+  border: 1px solid black;
+  border-radius: 14px;
+  width: 40rem;
+  padding: 10px 15px;
+}
+iframe {
+  border-radius: 9px;
+  width: 38rem;
+  height: 300px;
+}
+.video-text {
+  width: 386px;
+  font-size: 35px;
+  top: 200px;
+  height: 100px;
+}
+.text-sm-start {
+  color: rgb(109, 109, 248);
+}
+form {
+  position: absolute;
+  max-width: 65em !important;
+  width: 70em !important;
+  height: 93px;
+  top: 284px;
+  left: 30px;
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #2b2a35;
+  border: 1px solid rgb(223, 213, 213);
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 70px 0;
+}
+.mb-3 {
+  width: 70em;
+  padding: 10px;
+}
+form > .btn {
+  font-size: 24px;
+}
+.form-label {
+  font-weight: bolder;
+}
+.form-control {
+  border: 1px solid rgb(223, 213, 213);
+  border-radius: 10px;
+  margin-bottom: 13px;
+}
+
+
+
+@media only screen and (min-width: 1526px){
+  .content{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
