@@ -1,40 +1,52 @@
-html{
-    overflow-x: hidden;
-    
-}
 .header {
-    background-color: rgb(109, 109, 248);
-    height: 500px;
+  background-color: rgb(109, 109, 248);
+  height: 500px;
+  width: 1606px;
 }
 .navbar {
-    color: rgb(255, 255, 255);
-    background-color: rgb(109, 109, 248);
-    font-family:'Times New Roman', Times, serif
+  color: rgb(255, 255, 255);
+  background-color: rgb(109, 109, 248);
+  font-family: "Times New Roman", Times, serif;
 }
-.navbar-brand{
-    color: aliceblue;
+.navbar-brand {
+  color: aliceblue;
 }
 .nav-item {
-    padding: 0 14px;
+  padding: 0 14px;
 }
 .nav-link {
-    color: aliceblue;
-    
+  color: aliceblue;
 }
-
+.mx-3{
+    margin-left: 44rem !important;
+}
 .btn {
-    border: 2px solid white !important;
-    border-radius: 20px !important;
-    color: aliceblue !important;
-    padding: 4px 27px !important;
+  border: 2px solid white !important;
+  border-radius: 20px !important;
+  color: aliceblue !important;
+  padding: 4px 27px !important;
 }
-.d-flex > .btn:hover{
-    background-color: rgba(115, 141, 235, 0.918);
+.d-flex > .btn {
+  margin-right: 32px;
+}
+.d-flex > .btn:hover {
+  background-color: rgba(115, 141, 235, 0.918);
 }
 .text {
-    margin: 47px auto;
-    padding: 33px 0;
-    color: aliceblue;
-    font-size: 3em;
-    max-width: 550px;
+  margin: 47px auto;
+  padding: 33px 0;
+  color: aliceblue;
+  font-size: 3em;
+  max-width: 550px;
+}
+.fa-1x {
+  font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1201px) {
+  .header {
+  }
 }

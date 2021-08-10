@@ -10,7 +10,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 1606px;
   height: 90em;
   z-index: -1;
 }
@@ -26,7 +26,6 @@
 
 body {
     background-color: #191919;
-    border-radius: 0px 0px 9px 9px;
 }
 
 .details {
@@ -72,7 +71,7 @@ body {
   position: absolute;
   width: 408px;
   height: 45px;
-  left: 227px;
+  left: 267px;
   top: 584px;
 
   font-family: Sombra;
@@ -88,7 +87,7 @@ body {
   position: absolute;
   width: 619px;
   height: 93px;
-  left: 227px;
+  left: 267px;
   top: 613px;
 
   font-family: Circular Std;
@@ -106,7 +105,7 @@ body {
   position: absolute;
   width: 18px;
   height: 19px;
-  left: 195px;
+  left: 235px;
   top: 692px;
   display: flex;
   flex-direction: row;
@@ -120,14 +119,14 @@ body {
   font-size: 23px;
 }
 .line {
-  left: 22px;
+  left: 20px;
   position: relative;
   top: 182px;
   max-width: 1000px;
 }
 .residence {
   position: absolute;
-  left: 220px;
+  left: 267px;
   top: 776px;
   font-family: Circular Std;
   font-style: normal;
@@ -143,7 +142,7 @@ body {
 }
 .language {
   position: absolute;
-  left: 220px;
+  left: 267px;
   top: 837px;
 
   font-family: Circular Std;
@@ -167,7 +166,7 @@ body {
 .row {
   position: absolute;
   height: 96px;
-  left: 217px;
+  left: 267px;
   top: 1117px;
 
   font-family: Sombra;
@@ -204,7 +203,7 @@ iframe {
 form {
   position: absolute;
   max-width: 65em !important;
-  width: 70em !important;
+  width: 64em !important;
   height: 93px;
   top: 284px;
   left: 30px;
@@ -240,11 +239,128 @@ form > .btn {
 
 
 
-@media only screen and (min-width: 1526px){
-  .content{
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media only screen and (max-width: 1201px){
+  .text-left p{
+    left: 375px;
+  }
+  .text-left h2{
+    left: 375px;
+  }
+  .icons{
+    left: 340px;
+  }
+  .residence{
+    left: 370px;
+  }
+  .language{
+    left: 370px;
+  }
+  .row{
+    left: 370px;
+  }
+  .video{
+    width: 30rem;
+  }
+  iframe{
+    width: 28rem;
+  }
+  form{
+    width: 50em !important;
+  }
+}
+@media only screen and (max-width: 992px){
+  .text-left p{
+    left: 503px;
+  }
+  .text-left h2{
+    left: 501px;
+  }
+  .icons{
+    left: 470px;
+  }
+  .residence{
+    left: 501px;
+  }
+  .language{
+    left: 501px;
+    width: 370px;
+  }
+  .badge{
+    padding: 8px;
+  }
+  .residence > h5 {
+    margin: -30px 34px;
+  }
+  .language > h5 {
+    margin: -27px 34px;
+  }
+  .line{
+    left: 30px;
+    max-width: 600px;
+  }
+  .row{
+    left: 501px;
+  }
+  .video{
+    width: 15rem;
+  }
+  iframe{
+    width: 13rem;
+  }
+  form{
+    width: 35em !important;
+  }
+  .d-grid {
+    margin-top: -165px;
+    margin-right: 20px;
+  }
+  form > .btn {
+    font-size: 18px;
+  }
+  .form-control {
+    margin-top: -10px;
+  }
+}
+@media only screen and (max-width: 766px){
+  .text-left p{
+    left: 285px;
+  }
+  .text-left h2{
+    left: 285px;
+  }
+  .icons{
+    left: 250px;
+  }
+  .residence{
+    left: 281px;
+    width: 370px;
+  }
+  .language{
+    left: 281px;
+  }
+  .row{
+    left: 281px;
+  }
+  .text-sm-start{
+    display: none;
+  }
+  .video{
+    width: 30rem;
+  }
+  iframe{
+    width: 23rem;
+  }
+  form{
+    width: 55em !important;
+  }
+  form > .btn {
+    font-size: 22px;
+  }
+  .form-control {
+    margin-top: 0px;
+  }
+  .d-grid > .btn{
+    width: 190px;
+    margin-left: 47em;
   }
 }

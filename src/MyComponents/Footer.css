@@ -3,7 +3,7 @@ footer{
     position: absolute;
     top: 143em;
     left: 0;
-    width: 100%;
+    width: 1606px;
     height: 150px;
     overflow-y:hidden;
 }
@@ -37,7 +37,7 @@ footer > .text-right{
 
 position: absolute;
 height: 20px;
-left: 1198px;
+left: 1268px;
 top: 87px;
 
 font-family: Circular Std;
@@ -53,4 +53,10 @@ color: #FFFFFF;
 }
 .nav > .nav-item{
     padding: 0px;
+}
+
+@media only screen and (max-width: 1201px){
+    footer > .text-left{
+        left: 34px;
+    }
 }
