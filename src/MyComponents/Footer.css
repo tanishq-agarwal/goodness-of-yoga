@@ -1,55 +1,54 @@
 footer{
     background-color: rgb(109, 109, 248);
     position: absolute;
-    top: 143em;
+    top: 227rem;
     left: 0;
-    width: 1606px;
-    height: 150px;
-    overflow-y:hidden;
+    width: 100%;
+    height: 10rem;
 }
 .social-icons{
-    margin-left: -19px;
-    margin-top: 8px;
+    margin-left: -1rem;
+    margin-top: 1rem;
 }
 .social-icons a {
-    padding: 0 19px;
-    margin: 8px 0px;
+    padding: 0 1.3rem;
+    margin: 0.8rem 0px;
     color: #ffffff;
     text-decoration: none;
-    font-size:17px;
+    font-size: 1.5rem;
   }
 
 footer > .text-left{
 
 position: absolute;
-height: 27px;
-left: 24px;
-top: 87px;
+height: 3rem;
+left: 2rem;
+top: 5rem;
 font-family: Sombra;
 font-style: normal;
 font-weight: bold;
-font-size: 24px;
-line-height: 27px;
+font-size: 2rem;
+line-height: 1.5rem;
 color: #FFFFFF;
 }
 
 footer > .text-right{
 
 position: absolute;
-height: 20px;
-left: 1268px;
-top: 87px;
+height: 2rem;
+left: 122rem;
+top: 5rem;
 
 font-family: Circular Std;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
-line-height: 20px;
+font-size: 1.5rem;
+line-height: 2rem;
 
 color: #FFFFFF;
 }
 .footer-text{
-    margin-left: 90px;
+    margin-left: 6rem;
 }
 .nav > .nav-item{
     padding: 0px;
@@ -57,6 +56,6 @@ color: #FFFFFF;
 
 @media only screen and (max-width: 1201px){
     footer > .text-left{
-        left: 34px;
+        left: 3rem;
     }
 }

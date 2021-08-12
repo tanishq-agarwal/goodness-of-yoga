@@ -3,42 +3,53 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.App {
-  text-align: center;
+html{
+ font-size: 62.5%;
+ 
+}
+.slides{
+  top: 114rem;
+  margin-left: -19rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slick-slide{
+  margin: 0 1rem;
+  border: 1px solid white;
+  border-radius: 4%;
+}
+.slick-slide img{
+  padding: 15px 18px;
+}
+.slick-arrow{
+  top: 67% !important;
+}
+.slick-prev{
+  left: 92rem !important;
+}
+.slick-next{
+  right: 72rem !important;
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 3.5rem !important;
+}
+.card-body {
+  margin-top: -12rem;
+  margin-left: 3rem;
+  color: aliceblue;
+  opacity: 0.9;
+  font-size: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+@media(max-width: 998px){
+  html{
+    font-size: 55%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media(max-width: 768px){
+  html{
+    font-size: 45%;
   }
 }

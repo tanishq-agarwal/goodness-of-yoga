@@ -2,290 +2,296 @@
   background: repeating-linear-gradient(
     135deg,
     #ffffff,
-    #ffffff 50px,
-    rgb(109, 109, 248) 1px,
-    rgb(109, 109, 248) 51px
+    #ffffff 5rem,
+    rgb(109, 109, 248) 0.1rem,
+    rgb(109, 109, 248) 5.1rem
   );
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 1606px;
-  height: 90em;
+  width: 100%;
+  height: 94rem;
   z-index: -1;
 }
 .container {
   box-sizing: border-box;
   border: 1px solid rgb(255, 255, 255);
-  border-radius: 7px;
-  width: 73em;
-  height: 78em;
+  border-radius: 1rem;
+  width: 110rem;
+  height: 114rem;
   background-color: rgb(109, 109, 248);
-  padding: 20px 10px;
+  padding: 2rem 1rem;
 }
 
 body {
-    background-color: #191919;
+  background-color: #191919;
 }
 
 .details {
-  margin: 0 10px;
-  padding: 10px;
+  margin: 0 0.5rem;
+  padding: 2rem;
   background-color: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 76em;
-  
+  height: 110rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 1rem;
 }
 .left {
   color: rgb(110, 110, 109) !important;
   border: 2px solid rgb(109, 109, 248) !important;
   border-radius: 10px !important;
-  padding: 2px 19px !important;
-  margin-right: 10px;
-  margin-top: 10px;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
 }
 .align-left {
   display: inline-block;
-  margin: 0 -5em;
-  max-width: 15em;
+  padding: 1rem 0;
+  margin: 0 -4rem;
+  max-width: 20rem;
+  font-size: 4rem;
+}
+.align-left > .btn {
+  font-size: 1.4rem;
 }
 .right {
   color: rgb(250, 250, 250) !important;
   border: 2px solid rgb(109, 109, 248) !important;
-  border-radius: 10px !important;
-  padding: 7px 34px !important;
-  font-size: 18px;
+  border-radius: 1rem !important;
+  padding: 0.5rem 3.1rem !important;
+  font-size: 2rem;
 }
 .right-bottom {
   color: rgb(110, 110, 109) !important;
   border: 2px solid rgb(110, 110, 109) !important;
-  border-radius: 10px !important;
-  padding: 7px 44px !important;
-  font-size: 18px;
+  border-radius: 1rem !important;
+  padding: 0.5rem 3.1rem !important;
+  font-size: 2rem;
 }
 .d-grid {
-  margin-top: -157px;
-  margin-right: 111px;
+  margin-top: -17.7rem;
+  margin-right: 9.1rem;
 }
 .text-left h2 {
   position: absolute;
-  width: 408px;
-  height: 45px;
-  left: 267px;
-  top: 584px;
+  width: 40.8rem;
+  height: 4.5rem;
+  left: 27.1rem;
+  top: 59rem;
 
   font-family: Sombra;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 45px;
-  letter-spacing: 0.02em;
+  font-size: 3rem;
+  line-height: 3rem;
+  letter-spacing: 0.02rem;
 
   color: #2b2a35;
 }
 .text-left p {
   position: absolute;
-  width: 619px;
-  height: 93px;
-  left: 267px;
-  top: 613px;
+  width: 73rem;
+  height: 53rem;
+  left: 27rem;
+  top: 39rem;
 
   font-family: Circular Std;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03rem;
 
   color: #a5a5a5;
 }
 .icons {
   position: absolute;
-  width: 18px;
-  height: 19px;
-  left: 235px;
-  top: 692px;
+  width: 1rem;
+  height: 1rem;
+  left: 23.5rem;
+  top: 69rem;
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  padding: 1rem;
 }
 .icons a {
-  padding: 0 10px;
-  margin: 8px 15px;
+  padding: 0 2rem;
+  margin: 0rem 1rem;
   color: #2b2a35;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 2.5rem;
 }
 .line {
-  left: 20px;
+  left: 3rem;
   position: relative;
-  top: 182px;
-  max-width: 1000px;
+  top: 22rem;
+  max-width: 96rem;
 }
 .residence {
   position: absolute;
-  left: 267px;
-  top: 776px;
+  left: 27rem;
+  top: 78rem;
   font-family: Circular Std;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 25px;
-  letter-spacing: 0.02em;
+  font-size: 4rem;
+  line-height: 3rem;
+  letter-spacing: 0.02rem;
 
   color: #2b2a35;
 }
 .residence > h5 {
-  margin: -39px 28px;
+  margin: -3rem 3rem;
+  font-size: 2rem;
 }
 .language {
   position: absolute;
-  left: 267px;
-  top: 837px;
+  left: 27rem;
+  top: 84rem;
 
   font-family: Circular Std;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 25px;
-  letter-spacing: 0.02em;
+  font-size: 2rem;
+  line-height: 2rem;
+  letter-spacing: 0.02rem;
 
   color: #2b2a35;
 }
 .language > h5 {
-  margin: -36px 28px;
+  margin: -3rem 3rem;
+  font-size: 2rem;
 }
 .badge {
-  margin-left: 15px;
-  padding: 16px;
+  margin-left: 1rem;
+  padding: 1rem;
   border: 1px solid white;
-  border-radius: 19px;
+  border-radius: 1rem;
 }
 .row {
   position: absolute;
-  height: 96px;
-  left: 267px;
-  top: 1117px;
+  height: 9rem;
+  left: 27rem;
+  top: 114rem;
 
   font-family: Sombra;
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
-  line-height: 32px;
-  letter-spacing: 0.02em;
-
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 0.02rem;
   color: #2b2a35;
 }
 .video {
   position: absolute;
-  left: 393px;
+  left: 46rem;
   border: 1px solid black;
-  border-radius: 14px;
-  width: 40rem;
-  padding: 10px 15px;
+  border-radius: 1rem;
+  width: 60rem;
+  padding: 1rem 1rem;
+  padding-bottom: 0rem;
 }
 iframe {
-  border-radius: 9px;
-  width: 38rem;
-  height: 300px;
+  border-radius: 1rem;
+  width: 49rem;
+  height: 27rem;
 }
 .video-text {
-  width: 386px;
-  font-size: 35px;
-  top: 200px;
-  height: 100px;
+  width: 31rem;
+  font-size: 3.5rem;
+  line-height: 3rem;
+  top: 20rem;
+  height: 10rem;
 }
 .text-sm-start {
   color: rgb(109, 109, 248);
 }
 form {
   position: absolute;
-  max-width: 65em !important;
-  width: 64em !important;
-  height: 93px;
-  top: 284px;
-  left: 30px;
+  max-width: 100rem !important;
+  width: 95rem !important;
+  height: 13rem;
+  top: 15rem;
+  left: 2rem;
   font-family: Circular Std;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   display: flex;
   align-items: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03rem;
   color: #2b2a35;
   border: 1px solid rgb(223, 213, 213);
-  border-radius: 8px;
+  border-radius: 0.8rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  padding: 70px 0;
+  padding: 2rem 0;
 }
 .mb-3 {
-  width: 70em;
-  padding: 10px;
+  width: 81rem;
+  padding: 2rem;
 }
 form > .btn {
-  font-size: 24px;
+  font-size: 2rem;
 }
 .form-label {
   font-weight: bolder;
 }
 .form-control {
   border: 1px solid rgb(223, 213, 213);
-  border-radius: 10px;
-  margin-bottom: 13px;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
-
-
-@media only screen and (max-width: 1201px){
-  .text-left p{
+@media only screen and (max-width: 1201px) {
+  .text-left p {
     left: 375px;
   }
-  .text-left h2{
+  .text-left h2 {
     left: 375px;
   }
-  .icons{
+  .icons {
     left: 340px;
   }
-  .residence{
+  .residence {
     left: 370px;
   }
-  .language{
+  .language {
     left: 370px;
   }
-  .row{
+  .row {
     left: 370px;
   }
-  .video{
+  .video {
     width: 30rem;
   }
-  iframe{
+  iframe {
     width: 28rem;
   }
-  form{
+  form {
     width: 50em !important;
   }
 }
-@media only screen and (max-width: 992px){
-  .text-left p{
+@media only screen and (max-width: 992px) {
+  .text-left p {
     left: 503px;
   }
-  .text-left h2{
+  .text-left h2 {
     left: 501px;
   }
-  .icons{
+  .icons {
     left: 470px;
   }
-  .residence{
+  .residence {
     left: 501px;
   }
-  .language{
+  .language {
     left: 501px;
     width: 370px;
   }
-  .badge{
+  .badge {
     padding: 8px;
   }
   .residence > h5 {
@@ -294,20 +300,20 @@ form > .btn {
   .language > h5 {
     margin: -27px 34px;
   }
-  .line{
+  .line {
     left: 30px;
     max-width: 600px;
   }
-  .row{
+  .row {
     left: 501px;
   }
-  .video{
+  .video {
     width: 15rem;
   }
-  iframe{
+  iframe {
     width: 13rem;
   }
-  form{
+  form {
     width: 35em !important;
   }
   .d-grid {
@@ -321,36 +327,36 @@ form > .btn {
     margin-top: -10px;
   }
 }
-@media only screen and (max-width: 766px){
-  .text-left p{
+@media only screen and (max-width: 766px) {
+  .text-left p {
     left: 285px;
   }
-  .text-left h2{
+  .text-left h2 {
     left: 285px;
   }
-  .icons{
+  .icons {
     left: 250px;
   }
-  .residence{
+  .residence {
     left: 281px;
     width: 370px;
   }
-  .language{
+  .language {
     left: 281px;
   }
-  .row{
+  .row {
     left: 281px;
   }
-  .text-sm-start{
+  .text-sm-start {
     display: none;
   }
-  .video{
+  .video {
     width: 30rem;
   }
-  iframe{
+  iframe {
     width: 23rem;
   }
-  form{
+  form {
     width: 55em !important;
   }
   form > .btn {
@@ -359,7 +365,7 @@ form > .btn {
   .form-control {
     margin-top: 0px;
   }
-  .d-grid > .btn{
+  .d-grid > .btn {
     width: 190px;
     margin-left: 47em;
   }

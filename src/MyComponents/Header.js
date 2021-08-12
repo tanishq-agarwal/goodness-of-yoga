@@ -3,7 +3,7 @@ import './Header.css';
 import { Portfolio } from "./Portfolio";
 import { Link } from "react-router-dom";
 
-export const Header = ({ onBlur, onSubmit }) => {
+export const Header = ({ onBlur, onSubmit}) => {
 
     return (
         <div className="container-fluid header">

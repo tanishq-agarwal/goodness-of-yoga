@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 console.log(pic);
 export const Portfolio = ({onBlur,onSubmit}) => {
     let myStyle = {
-        width: "150px",
-        height: "150px",
-        margin: "2em 6em",
-        marginLeft: "23px",
+        width: "15rem",
+        height: "17rem",
+        margin: "2rem 6rem",
+        marginLeft: "2rem",
         border: "2px solid rgb(109, 109, 248)",
-        borderRadius: "5px"
+        borderRadius: "0.5rem"
     }
     return (
         <div className="container">
