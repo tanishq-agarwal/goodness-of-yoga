@@ -36,7 +36,7 @@ footer > .text-right{
 
 position: absolute;
 height: 2rem;
-left: 122rem;
+left: 119rem;
 top: 5rem;
 
 font-family: Circular Std;
@@ -54,8 +54,77 @@ color: #FFFFFF;
     padding: 0px;
 }
 
-@media only screen and (max-width: 1201px){
+@media only screen and (max-width: 1438px){
+    footer > .text-right{
+        left: 74rem;
+    }
+    footer{
+        top: 205rem;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    footer{
+        top: 208rem;
+    }
+}
+
+@media only screen and (max-width: 766px){
+    footer > .text-right{
+        left: 20rem;
+    } 
+    footer{
+        top: 233rem;
+        height: 11rem;
+    }
     footer > .text-left{
-        left: 3rem;
+        align-items: center;
+        justify-content: center;
+        left: 23rem;
+        top: 3rem;
+    }
+    footer >.text-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        left: -4rem;
+        top: 8rem;
+    }
+    .footer-text{
+        width: 40rem;
+    }
+}
+@media only screen and (max-width: 405px){
+    footer{
+        position: relative;
+        margin-left: -3rem;
+        width: 52.5rem;
+        top: 52rem;
+        height: 12rem;
+    }
+    footer >.text-right{
+        left: -4rem;
+    }
+    footer > .text-left{
+        margin-left: -3rem;
+    }
+    .footer-text{
+        width: 35rem;
+    }
+}
+@media only screen and (min-width: 782px) and (max-width: 875px){
+    footer > .text-right{
+        left: 65rem;
+    }
+    
+}
+
+@media only screen and (max-width: 375px){
+    footer{
+        width: 50rem;
+    }
+    .footer-text{
+        width: 30rem;
     }
 }

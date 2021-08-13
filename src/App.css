@@ -5,7 +5,7 @@
 }
 html{
  font-size: 62.5%;
- 
+ overflow-x: hidden;
 }
 .slides{
   top: 114rem;
@@ -40,7 +40,14 @@ html{
   font-size: 1.5rem;
 }
 
-
+@media only screen and (max-width: 1438px) {
+  .slick-prev{
+    left: 68rem !important;
+  }
+  .slick-next{
+    right: 48rem !important;
+  }
+}
 
 @media(max-width: 998px){
   html{
@@ -51,5 +58,31 @@ html{
 @media(max-width: 768px){
   html{
     font-size: 45%;
+  }
+}
+@media only screen and (max-width: 766px){
+  .slides{
+    justify-content: center;
+    align-items: center;
+    margin-left: -10rem;
+    padding: 1rem 1rem;
+  }
+  .slick-slide img{
+    padding: 1rem;
+  }
+  .slick-prev{
+    left: 34rem !important;
+  }
+  .slick-next{
+    right: 28rem !important;
+  }
+}
+
+@media only screen and (max-width: 405px){
+  .slick-prev{
+    left: 32rem !important;
+  }
+  .slick-next{
+    right: 24rem !important;
   }
 }

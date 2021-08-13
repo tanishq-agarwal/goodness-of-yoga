@@ -113,19 +113,19 @@ body {
   top: 69rem;
   display: flex;
   flex-direction: row;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .icons a {
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   margin: 0rem 1rem;
   color: #2b2a35;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .line {
   left: 3rem;
   position: relative;
-  top: 22rem;
+  top: 21rem;
   max-width: 96rem;
 }
 .residence {
@@ -245,128 +245,204 @@ form > .btn {
   font-size: 2rem;
 }
 
-@media only screen and (max-width: 1201px) {
+@media only screen and (max-width: 1438px) {
   .text-left p {
-    left: 375px;
+    left: 9rem;
+    top: 42rem;
   }
   .text-left h2 {
-    left: 375px;
+    left: 9rem;
+    top: 62rem;
   }
-  .icons {
-    left: 340px;
+  .icons{
+    left: 5rem;
+    top: 71rem;
   }
-  .residence {
-    left: 370px;
+  .line{
+    left: 2rem;
+    top: 26rem;
+    width: 85rem;
   }
-  .language {
-    left: 370px;
+  .residence{
+    left: 8rem;
   }
-  .row {
-    left: 370px;
+  .language{
+    left: 8rem;
   }
-  .video {
-    width: 30rem;
+  .row{
+    left: 8rem;
   }
-  iframe {
-    width: 28rem;
+  .video{
+    width: 43rem;
   }
-  form {
-    width: 50em !important;
+  iframe{
+    width: 41rem;
+  }
+  form{
+    top: 13rem;
+    width: 83rem !important;
   }
 }
-@media only screen and (max-width: 992px) {
+
+@media only screen and (max-width: 766px){
+  .container{
+    width: auto;
+    border: none;
+  }
+  .container::before{
+    background: rgb(109, 109, 248);
+    height: 138rem;
+  }
+  .details{
+    padding: 0rem;
+  }
+  .img-thumbnail{
+    width: 10rem !important;
+    height: 14rem !important;
+  }
+  .align-left > .btn{
+    width: 7rem;
+   padding-left: 1.1rem !important;
+   font-size: 1.2rem;
+  }
+  .details > .d-grid {
+    margin-left: 35rem;
+  }
+  .d-grid > .btn{
+      width: 15rem;
+      font-size: 1.5rem;
+  }
   .text-left p {
-    left: 503px;
+    left: 4rem;
+    width: 52rem;
+    top: 36rem;
   }
   .text-left h2 {
-    left: 501px;
+    left: 4rem;
+    top: 55rem;
   }
-  .icons {
-    left: 470px;
+  .icons{
+    top: 67rem;
+    left: 1rem;
   }
-  .residence {
-    left: 501px;
+  .icons a{
+    padding: 0.5rem;
   }
-  .language {
-    left: 501px;
-    width: 370px;
+  .line{
+    top: 27rem;
+    width: 46rem;
   }
-  .badge {
-    padding: 8px;
+  .residence{
+    
+    top: 74rem;
+    left: 3rem;
   }
-  .residence > h5 {
-    margin: -30px 34px;
+  .language{
+    top: 80rem;
+    left: 4rem;
   }
-  .language > h5 {
-    margin: -27px 34px;
+  .row{
+    top: 106rem;
+    left: 4rem;
   }
-  .line {
-    left: 30px;
-    max-width: 600px;
-  }
-  .row {
-    left: 501px;
-  }
-  .video {
-    width: 15rem;
-  }
-  iframe {
-    width: 13rem;
-  }
-  form {
-    width: 35em !important;
-  }
-  .d-grid {
-    margin-top: -165px;
-    margin-right: 20px;
-  }
-  form > .btn {
-    font-size: 18px;
-  }
-  .form-control {
-    margin-top: -10px;
-  }
-}
-@media only screen and (max-width: 766px) {
-  .text-left p {
-    left: 285px;
-  }
-  .text-left h2 {
-    left: 285px;
-  }
-  .icons {
-    left: 250px;
-  }
-  .residence {
-    left: 281px;
-    width: 370px;
-  }
-  .language {
-    left: 281px;
-  }
-  .row {
-    left: 281px;
-  }
-  .text-sm-start {
+  .row p{
     display: none;
   }
-  .video {
+  .video-text{
+    font-size: 3rem;
+    width: 40rem;
+  }
+  .video{
+    top: 8rem;
+    left: 3rem;
+    width: 46rem;
+  }
+  iframe{
+    width: 44rem;
+  }
+  form{
+    top: 22rem;
+    width: 47rem !important;
+  }
+  form .btn{
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 405px){
+  .text-left p{
+    width: 37rem;
+    top: 34rem;
+  }
+  .text-left h2{
+    top: 52rem;
+  }
+  .d-grid > .btn{
+    margin-top: 2rem;
+    left: 3rem;
+    width: 13rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    padding-top: 0rem !important;
+  }
+  .line{
+    display: none;
+  }
+  .d-grid > .btn:nth-child(2){
+    margin-top: 0rem;
+  }
+  .details > .d-grid {
+    margin-left: 32rem;
+  }
+  .align-left > .btn{
+    width: 6rem;
+    height: 2rem;
+   padding-left: 1.1rem !important;
+   padding-top: 0rem !important;
+   font-size: 1.2rem;
+  }
+  .video{
+    width: 34rem;
+  }
+  iframe{
+    width: 32rem;
+  }
+  form{
+    width: 35rem !important;
+  }
+  form .btn{
+    margin-top: 3rem;
+    margin-left: -2rem;
+    width: 6rem;
+    font-size: 1rem;
+    padding-left: 0.8rem !important;
+  }
+  .form-label{
+    width: 26rem;
+  }
+  .form-control{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 782px) and (max-width: 875px){
+  .video{
     width: 30rem;
   }
-  iframe {
-    width: 23rem;
+  iframe{
+    width: 28rem;
   }
-  form {
-    width: 55em !important;
+  form{
+    width: 70rem !important;
   }
-  form > .btn {
-    font-size: 22px;
+}
+
+@media only screen and (max-width: 375px){
+  .details > .d-grid {
+    margin-left: 27rem;
   }
-  .form-control {
-    margin-top: 0px;
-  }
-  .d-grid > .btn {
-    width: 190px;
-    margin-left: 47em;
+  .details > .d-grid{
+    margin-top: -15rem;
+    margin-left: 25rem;
   }
 }

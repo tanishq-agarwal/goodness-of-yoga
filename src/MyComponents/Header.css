@@ -14,13 +14,14 @@
   font-size: 2rem;
 }
 .nav-item {
-  padding: 0 1.4rem;
+  padding: 0 1.2rem;
 }
 .nav-link {
   color: aliceblue;
+  font-size: 1.5rem;
 }
 .mx-3{
-    margin-left: 60rem !important;
+    margin-left: 74rem !important;
 }
 .btn {
   border: 2px solid white !important;
@@ -33,13 +34,13 @@
   font-size: 1.6rem;
 }
 .d-flex > .btn:hover {
-  background-color: rgba(115, 141, 235, 0.918);
+  background-color: rgba(51, 55, 70, 0.918);
 }
 .text {
   margin: 4rem auto;
   padding: 3rem 0;
   color: aliceblue;
-  font-size: 5rem;
+  font-size: 4rem;
   max-width: 50rem;
 }
 .fa-1x {
@@ -47,4 +48,20 @@
 }
 .navbar-toggler.toggler-example {
   cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1438px){
+  .mx-3{
+    margin-left: 42rem !important;
+}
+.nav-item {
+  padding: 0 0.5rem;
+}
+.nav-link {
+  font-size: 1rem;
+}
+.d-flex > .btn {
+  font-size: 1rem;
+}
 }
