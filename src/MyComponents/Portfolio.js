@@ -17,7 +17,7 @@ export const Portfolio = ({onBlur,onSubmit}) => {
     return (
         <div className="container">
             <div className="details">
-                <img src={pic} class="img-thumbnail" alt="yoga girl" style={myStyle} />
+                <img src={pic} className="img-thumbnail" alt="yoga girl" style={myStyle} />
                 <div className="align-left">
                     <button type="button" className="btn btn-outline-primary left">Yoga</button>
                     <button type="button" className="btn btn-outline-primary left">Wellness</button>
@@ -33,37 +33,37 @@ export const Portfolio = ({onBlur,onSubmit}) => {
                     </p>
                 </div>
                 <div className="icons">
-                    <Link to="#"><i class="fab fa-instagram"></i></Link>
-                    <Link to="#"><i class="fab fa-facebook-f"></i></Link>
-                    <Link to="#"><i class="fab fa-youtube"></i></Link>
-                    <Link to="#"><i class="fab fa-twitter"></i></Link>
-                    <Link to="#"><i class="fab fa-linkedin-in"></i></Link>
-                    <Link to="#"><i class="fab fa-spotify"></i></Link>
+                    <Link to="#"><i className="fab fa-instagram"></i></Link>
+                    <Link to="#"><i className="fab fa-facebook-f"></i></Link>
+                    <Link to="#"><i className="fab fa-youtube"></i></Link>
+                    <Link to="#"><i className="fab fa-twitter"></i></Link>
+                    <Link to="#"><i className="fab fa-linkedin-in"></i></Link>
+                    <Link to="#"><i className="fab fa-spotify"></i></Link>
                 </div>
                 <hr className="line" />
                 <div className="residence">
-                    <i class="material-icons">&#xe55d;</i><h5>Lives in <span class="badge bg-light text-dark">New Delhi</span></h5>
+                    <i className="material-icons">&#xe55d;</i><h5>Lives in <span className="badge bg-light text-dark">New Delhi</span></h5>
                 </div>
                 <div className="language">
-                <i class="fa fa-language" aria-hidden="true"></i><h5>Speaks
-                        <span class="badge bg-light text-dark">English</span>
-                        <span class="badge bg-light text-dark">Hindi</span>
-                        <span class="badge bg-light text-dark">Punjabi</span>
+                <i className="fa fa-language" aria-hidden="true"></i><h5>Speaks
+                        <span className="badge bg-light text-dark">English</span>
+                        <span className="badge bg-light text-dark">Hindi</span>
+                        <span className="badge bg-light text-dark">Punjabi</span>
                     </h5>
                 </div>
                 <div className="row">
                     <div className="d-grid justify-content-md-start video-text">Check out my video about 30 min yoga for beginners</div>
-                    <p class="text-sm-start">Contact me:</p>
-                    <div class="d-grid justify-content-md-end video"><div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowFullScreen title="yoga-lecture"></iframe>
+                    <p className="text-sm-start">Contact me:</p>
+                    <div className="d-grid justify-content-md-end video"><div className="embed-responsive embed-responsive-21by9">
+                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowFullScreen title="yoga-lecture"></iframe>
                     </div>
                     </div>
                     <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Subscribe to my profile and never miss another update from me.</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your Email" aria-describedby="emailHelp" onBlur={()=> {onBlur()}} />
+                        <div className="mb-3">
+                            <label htmlFor="exampleInputEmail1" className="form-label">Subscribe to my profile and never miss another update from me.</label>
+                            <input type="email" className="form-control" id="email" placeholder="Enter your Email" aria-describedby="emailHelp" onBlur={()=> {onBlur()}} />
                         </div>
-                        <button type="submit" class="btn btn-primary" onClick={()=> {onSubmit()}}>Subscribe</button>
+                        <button type="submit" className="btn btn-primary" onClick={()=> {onSubmit()}}>Subscribe</button>
                     </form>
                 </div>
             </div>

@@ -125,7 +125,7 @@ body {
 .line {
   left: 3rem;
   position: relative;
-  top: 21rem;
+  top: 23rem;
   max-width: 96rem;
 }
 .residence {
@@ -212,7 +212,7 @@ form {
   max-width: 100rem !important;
   width: 95rem !important;
   height: 13rem;
-  top: 15rem;
+  top: 14rem;
   left: 2rem;
   font-family: Circular Std;
   font-style: normal;

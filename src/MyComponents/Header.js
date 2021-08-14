@@ -4,15 +4,15 @@ import { Portfolio } from "./Portfolio";
 import { Link } from "react-router-dom";
 
 export const Header = ({ onBlur, onSubmit}) => {
-
+    
     return (
         <div className="container-fluid header">
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="#">bre.ad/jane</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="dark-blue-text"><i
-                            class="fas fa-bars fa-1x"></i></span>
+                        <span className="dark-blue-text"><i
+                            className="fas fa-bars fa-1x"></i></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent1">
                         <div className="d-flex mx-3">

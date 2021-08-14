@@ -79,10 +79,10 @@ class App extends Component {
               return (
                 <div>
                   <img width="100%" src={photo.url} alt="" />
-                  <div class="card-body">
-                        <button type="button" class="btn btn-outline-light">Live</button>
-                        <p class="card-text">Online class.</p>
-                        <p class="card-text">Aug 8, 9:00AM to 11:00 AM IST</p>
+                  <div className="card-body">
+                        <button type="button" className="btn btn-outline-light">Live</button>
+                        <p className="card-text">Online className.</p>
+                        <p className="card-text">Aug 8, 9:00AM to 11:00 AM IST</p>
                     </div>
                 </div>
               )
